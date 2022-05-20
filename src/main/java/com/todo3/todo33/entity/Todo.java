@@ -5,6 +5,7 @@ package com.todo3.todo33.entity;
 import lombok.Data;
 
 @Data
+
 public class Todo {
 
     private long id;

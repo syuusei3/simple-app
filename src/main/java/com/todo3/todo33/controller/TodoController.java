@@ -32,8 +32,31 @@ public class TodoController {
         return "redirect:/";
     }
 
+
+    @RequestMapping(value="/delete")
+    public String delete(Todo todo) {
+        todoMapper.delete(todo);
+        return "redirect:/";
+    }
+    
+
+
+
+
+
+
+    ////////for confirmation////////
+
     @RequestMapping("/hello")
 	public String hello() {
 		return "hello";
 	}
+
+	@RequestMapping(value="/test")
+    public String test(Model model) {
+        List<Todo> list = todoMapper.selectAll();
+        model.addAttribute("todos",list);
+
+        return "test";
+    }
 }

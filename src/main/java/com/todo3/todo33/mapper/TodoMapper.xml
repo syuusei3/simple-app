@@ -14,5 +14,9 @@
     values (#{title}, #{content})
   </insert>
 
+  <delete id="delete" parameterType="com.todo3.todo33.entity.Todo">
+    delete from todo_items where id=#{id}
+  </delete>
+
 
 </mapper>

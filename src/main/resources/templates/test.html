@@ -7,12 +7,14 @@
 <body>
   <h1>TodoList</h1>
   <form method="post" th:action="@{~/add}">
+    <p>Title</p>
     <input type="text" name="title" />
-    <input type="text" name="content"/>
+    <p>Text</p>
+    <textarea type="text" name="content" rows="3" cols="50">write something....</textarea>
     <input type="submit" value="追加" />
   </form>
 
-  <p>List</p>
+  <p>Database's information</p>
   <table>
     <thead><tr><th>KEY</th><th>TITLE</th><th>TEXT</th></tr></thead>
     <tbody>

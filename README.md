@@ -10,14 +10,14 @@ My IDE tool is "VS Code" .
  
 You can learn how to develop simple application on Windows.
  
-
+<img width="229" alt="javaToDoApp" src="https://media.github.tools.sap/user/54379/files/4dc05f71-38d8-4ab2-9c70-c68f6d6708ec">
 
  
 
 # Requirement
  
-* JAVA ===v16.14.2
-* SpringBoot ==
+* JAVA === openjdk 11.0.14.1 
+* SpringBoot === 2.6.7
 * PostgreSQL === Ver 8.0.28
  
 

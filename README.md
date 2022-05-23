@@ -8,7 +8,7 @@ My IDE tool is "VS Code" .
  
 # DEMO
  
-You can learn how to develop simple application.
+You can learn how to develop simple application on Windows.
  
 
 
@@ -27,12 +27,15 @@ java -version
 ```
  
 # Installation
- 
-## I
+
+## Check IDE environment
 
 ## Check Database
-If you have not downloaded PostgreSQL
+If you have not downloaded PostgreSQL.
+(https://www.postgresql.org/)
  
+Please remember your pssowrd.
+
 
 ```bash
 # Go into PostgreSQL, postgres is original user.
@@ -59,7 +62,7 @@ CREATE DATABASE todo_items(
     content varchar(300)
 );
 
-# Check table.
+# Check tables.
 \dt;
 
 # Check items contens.
@@ -67,13 +70,13 @@ select * from todo_items;
 ```
 
 # Usage
- 
+Run on VSCode.
  
 
  
 # Note
  
-I don't test environments under Linux and Mac.
+I did not test environments under Linux and Mac.
  
 # Author
  

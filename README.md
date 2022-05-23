@@ -19,7 +19,6 @@ You can learn how to develop simple application on Windows.
 * JAVA === openjdk 11.0.14.1 
 * SpringBoot === 2.6.7
 * PostgreSQL === Ver 8.0.28
- 
 
  
 ```bash
@@ -28,7 +27,18 @@ java -version
  
 # Installation
 
-## Check IDE environment
+## Check environment
+
+You need to add the following elements to your pom.xml.
+
+```bash
+・Spring Web 
+・Spring Boot DevTools 
+・Thymeleaf 
+・Lombok 
+・MyBatis Framework 
+・PostgreSQL Driver
+```
 
 ## Check Database
 If you have not downloaded PostgreSQL.
